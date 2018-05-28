@@ -37,6 +37,6 @@ blogPostSchema.methods.serialize = function() {
 
 // Note that all instance methods and virtual properties on our
 // schema must be defined *before* we make the call to `.model`.
-const BlogPost = mongoose.model('BlogPost', blogSchema);
+const BlogPost = mongoose.model('blog-posts', blogPostSchema);
 
 module.exports = {BlogPost};
